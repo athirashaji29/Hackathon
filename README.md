@@ -1,4 +1,5 @@
 
+**Socio-Economic Analytics for Educational Equity**
 
 **Hackerrzz - Education Predictor**
 
