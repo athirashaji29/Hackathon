@@ -1,4 +1,4 @@
-# Hackathon
+Education Predictor
 **Hackerrzz - Education Predictor**
 
 **Introduction**
