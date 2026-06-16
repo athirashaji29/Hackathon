@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Education Predictor</title>
+  <!-- <script src="/script/script.js"></script> -->
+</head>
+
+<body style="background-color: rgb(4, 36, 84);">
+  {% block content %}
+
+  <!-- SETTING A TABLE TO MAKE A SEQUENCE OF LOGOS-->
+  <table colspan="108px" cellspacing="10px" cellpadding="10px">
+    <tr>
+      <td>
+        <img src="..\static\12.png" style="height: 160px;width: 160px;">
+      </td>
+      <td><img class="sdg"
+          src="..\static\vecteezy_sustainable-development-goals-logo-template-illustration_5412433-removebg-preview.png"
+          alt="image" style="height: 100px;width: 100px; padding-left: 400px;"></td>
+      <td><img class="sdg2" src="..\static\sdg_4_logo-removebg-preview.png" style="height: 100px;width: 100px;">
+
+      </td>
+    </tr>
+
+  </table>
+  <h4 class="hacker1"><b>HACK</b><b class="hacker2">ERZZZ</b></h4>
+
+  <!-- MAIN HEADING -->
+  <h1 class="mainhead">FutureCast: Your Portal to Predictions</h1>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h2 class="head"><b>What is SDG?</b></h2>
+  <br>
+  <p class="para">SDG stands for Sustainable Development Goals, a set of 17 global objectives established by the United
+    Nations in 2015 as part of the 2030 Agenda for Sustainable Development. These goals encompass a broad range of
+    interconnected social, economic, and environmental challenges, aiming to address issues such as poverty, inequality,
+    climate change, and access to education and healthcare. The SDGs provide a framework for countries and stakeholders
+    worldwide to collaborate and work towards a more sustainable and equitable future. Each goal is accompanied by
+    specific targets and indicators, serving as a universal call to action to end poverty, protect the planet, and
+    ensure prosperity for all. The SDGs highlight the </p>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <!-- STYLING PART -->
+  <style>
+    .hacker1 {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 30px;
+      text-align: left;
+      color: white;
+      font-variant-caps: all-petite-caps;
+      margin-top: -40px;
+      margin-left: 30px;
+    }
+
+    .hacker2 {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 30px;
+      text-align: left;
+      color: rgb(2, 172, 172);
+      font-variant-caps: all-petite-caps;
+      margin-top: -25px;
+      margin-left: 1px;
+    }
+
+    .sdg {
+      margin-left: 190%;
+
+    }
+
+    .sdg2 {
+      margin-left: 455%;
+      padding-left: 50px;
+    }
+
+    .mainhead {
+      text-align: center;
+      color: white;
+      font-style: oblique;
+      font-weight: bold;
+      margin-left: 70px;
+      margin-top: -150px;
+      font-size: 40px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: bisque
+    }
+
+    .head {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: rgb(173, 145, 21);
+      font-size: 30px;
+      margin-left: 10px;
+      text-align: center;
+    }
+
+    .para {
+      color: bisque;
+      font-size: 20px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      /* margin-left: 219px; */
+      text-align: center;
+      height: 50px;
+      width: 80%;
+      margin-left: 170px;
+    }
+
+    .para1 {
+      color: bisque;
+      font-size: 20px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-left: 0px;
+      text-align: center;
+      height: 50px;
+      width: 100%;
+      justify-content: left;
+    }
+
+    .form1 {
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: bolder;
+    }
+
+    .slider {
+      width: 500px;
+      height: 300px;
+      background-color: yellow;
+      margin-left: 590px;
+      margin-right: auto;
+      margin-top: 0px;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .image-container {
+      width: 1500px;
+      background-color: pink;
+      height: 300px;
+      clear: both;
+      position: relative;
+      -webkit-transition: left 2s;
+      -moz-transition: left 2s;
+      -o-transition: left 2s;
+      transition: left 2s;
+    }
+
+    .slide {
+      float: left;
+      margin: 0px;
+      padding: 0px;
+      position: relative;
+    }
+
+    #slide-1:target~.image-container {
+      left: 0px;
+    }
+
+    #slide-2:target~.image-container {
+      left: -500px;
+    }
+
+    #slide-3:target~.image-container {
+      left: -1000px;
+    }
+
+    .buttons {
+      position: relative;
+      top: -20px;
+    }
+
+    .buttons a {
+      display: inline-block;
+      height: 15px;
+      width: 15px;
+      border-radius: 50px;
+      background-color: lightgreen;
+    }
+
+    .font {
+      color: white;
+    }
+
+    .buttons1 {
+      background-color: rgb(238, 255, 0);
+      height: 100px;
+      width: 150px;
+      margin-left: 40px;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    }
+  </style>
+  </head>
+
+  <!-- CREATING A IMAGE CAROUSEL -->
+  <div class="slider">
+    <span id="slide-1"></span>
+    <span id="slide-2"></span>
+    <span id="slide-3"></span>
+    <div class="image-container">
+      <img src="..\static\1.png" class="slide" width="500" height="300" />
+      <img src="..\static\2.jpg" class="slide" width="500" height="300" />
+      <img src="..\static\3.jpg" class="slide" width="500" height="300" />
+    </div>
+    <div class="buttons">
+      <a href="#slide-1"></a>
+      <a href="#slide-2"></a>
+      <a href="#slide-3"></a>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <h2 class="head"><b>Why do we need Quality Education?</b></h2>
+  <p class="para">Quality education is a fundamental pillar for individual empowerment and societal progress. It goes
+    beyond mere academic achievement, encompassing a holistic approach that nurtures critical thinking, creativity,
+    and
+    lifelong learning skills. Aiming to provide inclusive and equitable opportunities for all, quality education
+    ensures
+    that learners acquire not only knowledge but also the tools to navigate an ever-evolving world. It is a catalyst
+    for
+    breaking the cycle of poverty, fostering economic growth, and promoting social cohesion. Access to quality
+    education
+    is crucial in building a foundation for sustainable development, enabling individuals to contribute meaningfully
+    to
+    their communities and participate in the global economy. As societies increasingly recognize the transformative
+    power of education, efforts to enhance its quality become integral to achieving broader goals, including the
+    United
+    Nations' Sustainable Development Goal 4, which specifically targets the promotion of inclusive and quality
+    education
+    for all.</p>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h2 class="head"><b>Root Causes of Quality Education Challenges</b></h2>
+  <p class="para1"><b>Underfunding:</b> Inadequate financial resources for educational infrastructure and teacher
+    support.<br><br>
+
+    <b>Disparities:</b> Unequal distribution of educational resources due to economic disparities.<br><br>
+
+    <b>Outdated Methods:</b> Failure to update curricula and teaching methods for modern needs. <br><br>
+
+    <b>Social Biases:</b> Gender biases and cultural norms limiting access to education for certain groups.<br><br>
+
+    <b>Impact:</b> Political instability, conflicts, and crises disrupting educational systems.<br><br>
+
+    <b>Training:</b> Insufficient training and professional development for educators. <br><br>
+
+    <b>Corruption:</b> Mismanagement and corruption diverting resources from education. <br><br>
+
+    <b> Awareness:</b> Lack of awareness about education's importance, leading to low enrollment. <br><br>
+
+    <b>Global Coordination:</b> Inadequate international cooperation hindering global education priorities. <br><br>
+  </p>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <!-- CREATING A FORM LIKE STRUCTURE -->
+  <h2 class="head"><b>Education Quality Test</b></h2>
+  <br>
+  <br>
+  <form action="/predict" method="POST" style="text-align: center;">
+    <label class="form1" for="age">Age</label>
+    <input class="box" type="text" name="age" placeholder="Enter the Age">
+    <label class="form1" for="family_size">Family Size</label>
+    <select name="famsize" id="famsize">
+      <option value="--Select">--Select--</option>
+      <option value="0">Less than 3</option>
+      <option value="1">Greater than 3</option>
+    </select>
+    <br><br>
+    <label class="form1" for="Fedu">Father Education</label>
+    <select name="Fedu" id="Fedu">
+      <option value="--Select--">--Select--</option>
+      <option value="0">None</option>
+      <option value="1">Primary Education</option>
+      <option value="2">5th - 9th</option>
+      <option value="3">Secondary Education</option>
+      <option value="4">Higher Education</option>
+    </select>
+    <label class="form1" for="Medu">Mother Education</label>
+    <select name="Medu" id="Medu">
+      <option value="--Select--">--Select--</option>
+      <option value="0">None</option>
+      <option value="1">Primary Education</option>
+      <option value="2">5th - 9th</option>
+      <option value="3">Secondary Education</option>
+      <option value="4">Higher Education</option>
+    </select>
+    <br><br>
+    <label class="form1" for="Fjob">Father Job</label>
+    <select name="Fjob" id="Fjob">
+      <option value="--Select--">--Select--</option>
+      <option value="0">Teacher</option>
+      <option value="1">Services</option>
+      <option value="2">Health</option>
+      <option value="3">At Home</option>
+      <option value="4">Other</option>
+    </select>
+    <label class="form1" for="Mjob">Mother Job</label>
+    <select name="Mjob" id="Mjob">
+      <option value="--Select--">--Select--</option>
+      <option value="0">Teacher</option>
+      <option value="1">Services</option>
+      <option value="2">Health</option>
+      <option value="3">At Home</option>
+      <option value="4">Other</option>
+    </select> <br><br>
+    <label class="form1" for="traveltime">Travel Time</label>
+    <select name="traveltime" id="traveltime">
+      <option value="--Select--">--Select--</option>
+      <option value="1">Less than 15 Mins</option>
+      <option value="2">15 - 30 Mins</option>
+      <option value="3">30 Mins - 1 Hour</option>
+      <option value="4">Greather than 1</option>
+    </select>
+    <label class="form1" for="studytime">Study Time</label>
+    <select name="studytime" id="studytime">
+      <option value="--Select--">--Select--</option>
+      <option value="1">Less than 2 Hours</option>
+      <option value="2">2 - 5 Hours</option>
+      <option value="3">5 - 10 Hours</option>
+      <option value="4">Greather than 10</option>
+    </select> <br><br>
+    <label class="form1" for="failures">Failure</label>
+    <select name="failures" id="failures">
+      <option value="--Select--">--Select--</option>
+      <option value="0">0 Failure</option>
+      <option value="1">1 Failure</option>
+      <option value="2">2 Failure</option>
+      <option value="3">3 Failure</option>
+      <option value="4">4 or More than Failure</option>
+    </select>
+    <br><br>
+    <div>
+      <div>
+        <label class="form1" for="paid">Paid</label>
+        <input class="font" type="radio" name="paid" value="1" id="choice1"><label style="color: #ffffff;"
+          for="choice1">Yes</la q bel>
+          <input class="font" type="radio" name="paid" value="0" id="choice2"><label style="color: #ffffff;"
+            for="choice2">No</label>
+      </div>
+      <br>
+      <div>
+        <label class="form1" for="nursery">Nursery</label>
+        <label style="color: #ffffff;"><input class="font" type="radio" name="nursery" value="1"
+            id="yesNursery">Yes</label>
+        <label style="color: #ffffff;"><input class="font" type="radio" name="nursery" value="0"
+            id="noNursery">No</label>
+      </div>
+      <br>
+      <div>
+        <label class="form1" for="internet">Internet</label>
+        <label style="color: #ffffff;"><input class="font" type="radio" name="internet" value="1"
+            id="yesInternet">Yes</label>
+        <label style="color: #ffffff;"><input class="font" type="radio" name="internet" value="0"
+            id="noInternet">No</label>
+      </div>
+      <br><br>
+      <label class="form1" for="goout">Going Out</label>
+      <select name="goout" id="goout">
+        <option value="--Select--">--Select--</option>
+        <option value="1">Very Low</option>
+        <option value="2">Low</option>
+        <option value="3">Average</option>
+        <option value="4">High</option>
+        <option value="5">Very High</option>
+      </select>
+      <label class="form1" for="age1">Abs</label>
+      <input class="box" type="text" name="age1" placeholder="Enter the Age">
+      <label class="form1" for="Dalc">Alcohol Consumption</label>
+      <select name="Dalc" id="Dalc">
+        <option value="--Select--">--Select--</option>
+        <option value="1">Very Low</option>
+        <option value="2">Low</option>
+        <option value="3">Average</option>
+        <option value="4">High</option>
+        <option value="5">Very High</option>
+      </select>
+
+      <br>
+      <br>
+      <!-- PREDICTION OUTPUT BUTTON CREATION -->
+      <button class="buttons1" type="submit" style="font-size: 30px;"><b> Get Prediction</b></button>
+  </form>
+
+  {% endblock content %}
+  <br>
+  <br>
+</body>
+
+</html>
