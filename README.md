@@ -1,4 +1,5 @@
-Education Predictor
+**Education Predictor**
+
 **Hackerrzz - Education Predictor**
 
 **Introduction**
